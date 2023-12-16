@@ -10,14 +10,19 @@ int v=0;
 char *filename;
 if (ac >1)	filename =strdup(av[1]);
 else		filename =strdup("ng.wl");
+char *filepath =(char*)malloc(10+strlen(filename)+1);
+strcpy(filepath,"wordlists/");
+strcat(filepath,filename);
+free(filename);
 if(v)	printf("hello1\n");
 
-int wln; wordlist wl =loadwordsfromfile(&wln, filename, 0);
-free(filename);
-//wordlist wl =loadwords(); wln=N_WORDS;
+
+int wln; wordlist wl =loadwordsfromfile(&wln, filepath, 0);
+free(filepath);
 if(v){	printf("hello2\n");
 	printf("wln=%i\n", wln);
-	for (int i=0;i<wln;i++) printf("'%s' %i %i-%i\n",wl[i]->word,wl[i]->type,
+	for (int i=0;i<wln;i++)
+		printf("'%s' %i %i-%i\n",wl[i]->word,wl[i]->type,
 		wl[i]->pre,wl[i]->post);
 	fflush(stdout);}
 
@@ -92,9 +97,9 @@ punctuate(str);
 //printf("\nyour word group:  %s", nominal_group); fflush(stdout);
 printf("%s ",nominal_group);
 
+
 free(nominal_group);
 //free sentence
-
 }
 
 freelexic(l);

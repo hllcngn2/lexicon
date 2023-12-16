@@ -1,2 +1,4 @@
 test1:
-	gcc test1.c lexic.c words.c tools.c -I. -olexicon
+	gcc src/test1.c src/lexic.c src/words.c src/tools.c -olexicon
+vg:
+	gcc src/verbalgroup.c src/lexic.c src/words.c src/tools.c -olexicon
