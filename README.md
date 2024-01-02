@@ -5,4 +5,5 @@ lexical experiments for text generation
 ```
 make
 ./lexicon
+./lexicon file.wl
 ```

@@ -1,0 +1,16 @@
+Lexicon source files
+
+words.c
+loading a wordlist from a file
+
+lexic.c
+building a lexic from a wordlist
+
+lexicon.h
+general header
+
+tools.c
+small helper functions
+
+test1.c
+main

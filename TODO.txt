@@ -1,2 +1,5 @@
 free sentence list
 sentences construct through non-random groups
+
+Verbal group:
+add subject pronouns
