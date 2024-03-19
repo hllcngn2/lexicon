@@ -1,6 +1,9 @@
 #ifndef LEXICON_H
 #define LEXICON_H
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
 
 #define N_WORDS 13
 #define N_GROUPS 6
@@ -58,5 +61,8 @@ void	freewords(wordlist, int);
 //lexic.c
 lexic	construct(wordlist, int);
 void	freelexic(lexic);
+
+//sentence.c
+char* makesentstr(int wln, wordlist wl, lexic l, int v);
 
 #endif

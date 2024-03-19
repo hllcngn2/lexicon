@@ -3,3 +3,4 @@ sentences construct through non-random groups
 
 Verbal group:
 add subject pronouns
+fix infinite loop -> test lexic

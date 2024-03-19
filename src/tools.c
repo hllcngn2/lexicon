@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>//rand
+#include "lexicon.h"
 
 int rn(int max){ //0 to max (non included)
 /*int n;

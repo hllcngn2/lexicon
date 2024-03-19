@@ -1,4 +1,3 @@
-#include <stdlib.h>//malloc/free
 #include "lexicon.h"
 wordgroup *extract_type(wordlist wl, int wln, int type);
 

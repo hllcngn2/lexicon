@@ -1,9 +1,4 @@
-# lexicon
+# hllcngn's lexicon
 lexical experiments for text generation
 
-#### try it
-```
-make
-./lexicon
-./lexicon file.wl
-```
+All rights reserved

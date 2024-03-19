@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>//malloc/free
-#include <string.h>//strdup,strcmp
 #include "lexicon.h"
 
 char	*freadword(int *len, FILE* f, char delim){
