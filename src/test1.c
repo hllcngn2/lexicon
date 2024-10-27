@@ -2,7 +2,7 @@
 
 int	main(int ac, char **av){
 srand((unsigned int)time(NULL));
-int v=0;
+int v=1;
 
 char *filename;
 if (ac >1)	filename =strdup(av[1]);

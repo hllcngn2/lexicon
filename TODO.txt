@@ -1,5 +1,6 @@
 free sentence list
 sentences construct through non-random groups
+fix recent worsening of the experience
 
 Verbal group:
 add subject pronouns
